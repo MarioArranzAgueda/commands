@@ -1,15 +1,22 @@
 {
-  "name": "script",
+  "name": "export-gamesdb",
   "version": "1.0.0",
   "description": "Script that transforms an xml into json",
   "main": "script.js",
-  "scripts": {},
+  "scripts": {
+    "init": "npm run games && npm run platforms && npm run platformGames",
+    "games": "node bin/gamesXmlToJson.js --idLimit 200",
+    "platforms": "node bin/platformsXmlToJson.js --idLimit 40",
+    "platformGames": "node bin/platformGamesXmlToJson.js --id 1"
+  },
   "author": "Mario Arranz Águeda",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.3.2",
+    "compodoc": "0.0.41",
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.4.19",
+    "yargs": "^11.0.0"
   }
 }
