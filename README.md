@@ -1,6 +1,6 @@
 [![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](http://github.com/badges/stability-badges)
 
-Is you want to use this mocks, you can use open api swagger from this url [https://api.thegamesdb.net/#/Games/GamesByGameID](https://api.thegamesdb.net/#/Games/GamesByGameID)
+If you want to use this mocks, you can use open api swagger from this url [https://api.thegamesdb.net/#/Games/GamesByGameID](https://api.thegamesdb.net/#/Games/GamesByGameID)
 
 
 # Export thegamesdb
